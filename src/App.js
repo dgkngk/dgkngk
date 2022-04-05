@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <Clock />
-          <img src={cat} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
         </header>
         <TickerList />
       </div>
