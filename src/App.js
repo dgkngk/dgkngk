@@ -154,7 +154,7 @@ function ApiCall(props) {
         loading7: "loading",
       },
     });
-    fetch(props.selection)
+    fetch("https://pparam.herokuapp.com/".concat(props.selection))
       .then((res) => res.json())
       .then((data) => {
         setApiData(data);
