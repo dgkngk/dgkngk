@@ -163,6 +163,9 @@ function ApiCall(props) {
 
   return (
     <div>
+      <p style={{ fontSize: "18px", color: "white" }}>
+      Note:This is NOT financial advice!
+      </p>
       <p style={{ fontSize: "16px", color: "white" }}>
         StochRSI=k:d-price:trend,BollingerBands=price:trend,MACD=macd:macd_signal-price:trend,VWAP=vwap-trend:price,UnP&up=Underpriced,OvP&op=overpriced,ne=neutral
       </p>
